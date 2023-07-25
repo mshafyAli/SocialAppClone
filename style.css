@@ -84,18 +84,23 @@ nav{
     justify-content: space-between;
     padding: 13px 5%;
 }
-.side-nav-left{
+.left-sidebar{
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
 }
 
-.side-nav-right{
+.right-sidebar{
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    color: #626262;
+
 }
 .main-content{
     flex-basis: 47%;
@@ -118,4 +123,35 @@ nav{
 }
 .image-links{
     border-bottom: 1px solid #ccc;
+}
+.shortcut-links a img{
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.shortcut-links p{
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+
+}
+.side-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+.side-title h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.side-title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
+.events{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
